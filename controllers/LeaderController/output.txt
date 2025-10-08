@@ -1,0 +1,20 @@
+OOI discovered at x:1.90 y:0.17
+OOI discovered at x:3.56 y:-1.52
+OOI discovered at x:-1.05 y:0.46
+OOI discovered at x:1.91 y:-3.85
+OOI discovered at x:-1.79 y:-1.46
+OOI discovered at x:-3.55 y:-4.36
+Target pose x:1.90 y:0.17 sent to robot 1
+Target pose x:3.56 y:-1.52 sent to robot 2
+Target pose x:-1.05 y:0.46 sent to robot 3
+Robot 1 has identified a red OOI
+Robot 3 has identified a red OOI
+Robot 2 has identified a red OOI
+Target pose x:1.91 y:-3.85 sent to robot 1
+Target pose x:-1.79 y:-1.46 sent to robot 2
+Target pose x:-3.55 y:-4.36 sent to robot 3
+Robot 1 has identified a red OOI
+Robot 2 has identified a green OOI
+Green OOI has been found, moving to x:-1.79 y:-1.46
+Robot 3 has identified a red OOI
+Successfully arrived at the green OOI

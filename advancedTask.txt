@@ -1,0 +1,17 @@
+I have attempted the Advanced Task (yes/no) : yes
+If yes please provide a brief description on your approach:
+
+I first made a vector storing all the positions of OOIs, and assigned them to different scouts robot in order (1, 2, 3, 1, 2, 3, ...), depends on how many scout robot are provided.
+
+Then, the leader robot will do tasks in a batch of 3 (the number of scout robots), including sending messages and receiving messages. If the OOIs of the batch are all red, the leader robot will continue the next batch, and so on, until a scout robot find the green OOI.
+
+For scout robots, they will receive the message and go to the target assigned. If the OOI is red, they will send the message back to leader robot, and wait for the next message to be received. If the OOI is green, their tasks will be ended.
+
+Finally, the leader robot will go to the green OOI.
+
+For obstacles avoidance, if the obstacle and the scout robot is too close, the scout robot will follow some instructions to move away from obstacles, then continue to its target.
+
+
+
+
+
